@@ -1,0 +1,76 @@
+#resultsection {
+display:flex;
+flex-flow: row wrap;
+justify-content: space-around;
+width: auto;
+height: min-content;
+    
+}
+
+
+
+.thumbsy {
+    
+    top: 30px;
+    left: -30px;
+    width: fit-content;
+    height: 129px;
+    border: 4px groove turquoise;
+
+
+  }
+    
+.eraseMe {
+    color: black ;
+    height: 25px;
+    width: 100px;;
+    background-color: rgb(239, 239, 10);
+    margin: 100px;
+    border: 2px groove teal;
+
+    
+    
+}
+
+.textDivCss {
+    position: relative;
+    left: -38px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+.topTextCss {
+position: absolute;
+top: 5px;
+font-size: large;
+background-color: coral;
+display: flex;
+
+
+
+}
+
+.btmTextCss {
+position: absolute;
+bottom: 20px;
+/* left: 55px; */
+font-size: 22px;
+background-color: coral;
+display: flex;
+
+}
+
+body {
+    background-color: brown;
+    border: 3px;
+    border-style: groove;
+    padding: auto;
+}
+
+
+
