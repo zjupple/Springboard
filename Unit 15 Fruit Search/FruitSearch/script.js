@@ -40,6 +40,8 @@ function searchHandler(e) {
 function showSuggestions(results, inputVal) {
 
 	// TODO
+
+	inputVal = document.getElementById('#fruitSearch[type=value""]')
 }
 
 
