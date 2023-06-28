@@ -49,8 +49,17 @@ class Garage extends Vehicle {
         this.vehicles = [];
         this.capacity = 7;
     }
-    // i know there is some logic for here
+    // i know there is some logic for here?
     add() {
+        if() {
+            return "Only vehicles are allowed here!"
+        }
+        if (this.Garage >= this.capacity) {
+            return "Sorry, we are full"
+        } 
+        this.vehicles.push(???) {
+           return "vehicle in the garage" 
+        }
 
     }
     
