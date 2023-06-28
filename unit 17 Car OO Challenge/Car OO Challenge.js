@@ -47,18 +47,18 @@ class Garage extends Vehicle {
         super(make, model, year)
 
         this.vehicles = [];
-        this.capacity = 7;
+        this.capacity = 7; // not required to add the value now
     }
     // i know there is some logic for here?
-    add() {
+    add() {   // needed to add a parameter, confused where this was mentioned
         if() {
-            return "Only vehicles are allowed here!"
+            return "Only vehicles are allowed here!";
         }
         if (this.Garage >= this.capacity) {
-            return "Sorry, we are full"
+            return "Sorry, we are full";
         } 
-        this.vehicles.push(???) {
-           return "vehicle in the garage" 
+        this.vehicles.push(???) {  // based off parameters didn't know how to finish this
+           return "vehicle in the garage";
         }
 
     }
