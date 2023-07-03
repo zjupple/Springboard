@@ -42,25 +42,51 @@ class Motorcycle extends Vehicle {
     }
 };
 
-class Garage extends Vehicle {
-    constructor(vehicles, capacity) {
-        super(make, model, year)
+// class Garage {
+//     constructor(capacity) {
+//       this.vehicles = [];
+//       this.capacity = capacity;
+//     }
+  
+//     add(newVehicle) {
+//       if (!(newVehicle instanceof Vehicle)) {
+//         return "Only vehicles are allowed in here!";
+//       }
+//       if (this.vehicles.length >= this.capacity) {
+//         return "Sorry, we're full.";
+//       }
+//       this.vehicles.push(newVehicle);
+//       return "Vehicle added!";
+//     }
+//   }
+
+class eGarage {
+    constructor(capacity) {
 
         this.vehicles = [];
-        this.capacity = 7; // not required to add the value now
+
+         // not required to add the value now
+
+        this.capacity = capacity;
     }
-    // i know there is some logic for here?
-    add() {   // needed to add a parameter, confused where this was mentioned
-        if() {
-            return "Only vehicles are allowed here!";
+        // i know there is some logic for here?
+
+        add(additionalvehicles) {   
+
+        // needed
+
+        let parkSpace = additionalvehicles;
+        let Full = (this.vehicles.length >= this.capacity);
+        let parkHere = this.vehicles.unshift(parkSpace);
+        let notAVehicle = (additionalvehicles instanceof Vehicle)
+
+        let result =  parkSpace =< Full ? 'No Space for you' : parkSpace != notAVehicle ? "can't park here" : parkHere;
+        console.log(result);
         }
-        if (this.Garage >= this.capacity) {
-            return "Sorry, we are full";
-        } 
-        this.vehicles.push(???) {  // based off parameters didn't know how to finish this
-           return "vehicle in the garage";
-        }
+        
 
     }
     
-}
+
+
+
